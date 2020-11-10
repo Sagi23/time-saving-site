@@ -82,7 +82,7 @@ nav {
     &-up {
       font-size: 3rem;
       width: 60%;
-      margin: 4em auto 0;
+      margin: 0 auto 0;
       span {
         color: $primery-color-3;
         text-decoration: underline;
@@ -330,6 +330,7 @@ nav {
       padding-bottom: 1em;
       &-up {
         font-size: 1.5rem;
+        margin-top: 2em;
       }
       background-image: none;
       span {

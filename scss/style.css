@@ -113,7 +113,7 @@ nav img {
 .landing .left-up {
   font-size: 3rem;
   width: 60%;
-  margin: 4em auto 0;
+  margin: 0 auto 0;
 }
 
 .landing .left-up span {
@@ -452,6 +452,7 @@ nav img {
   }
   .landing .left-up {
     font-size: 1.5rem;
+    margin-top: 2em;
   }
   .landing .left span {
     color: black;
