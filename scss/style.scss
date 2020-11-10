@@ -1,4 +1,5 @@
 @import "config";
+
 html,
 body {
   width: 100%;
@@ -74,12 +75,12 @@ nav {
     background-repeat: no-repeat;
     background-image: url(/static/Path7.svg);
     background-size: 100%;
-
+    height: 101%;
     display: grid;
     align-items: center;
 
     &-up {
-      font-size: 2.5rem;
+      font-size: 3rem;
       width: 60%;
       margin: 4em auto 0;
       span {
@@ -193,7 +194,6 @@ nav {
     width: 80%;
     grid-column: 1/3;
     margin-bottom: 0;
-    // height: fit-content;
   }
   .cards {
     font-size: 1.4rem;
@@ -225,7 +225,6 @@ nav {
       h2 {
         font-size: 2rem;
         text-align: center;
-        // margin-bottom: -2em;
       }
       button {
         background-color: $primery-color-3;
@@ -297,9 +296,131 @@ nav {
 }
 
 @media (min-width: 2000px) {
-  :root {
-    font-size: 22px;
+  body {
+    font-size: 1rem;
   }
 }
 
-// @media (max-width: )
+@media (max-width: 1400px) {
+  :root {
+    font-size: 10px;
+    width: auto;
+  }
+  nav {
+    grid-template-columns: 1fr 6fr;
+    border-radius: 0em;
+    ul {
+      width: 100%;
+    }
+    a {
+      justify-content: start;
+    }
+    img {
+      justify-self: end;
+    }
+  }
+  .landing {
+    display: block;
+    text-align: center;
+    height: auto;
+    .right {
+      display: none;
+    }
+    .left {
+      padding-bottom: 1em;
+      &-up {
+        font-size: 1.5rem;
+      }
+      background-image: none;
+      span {
+        color: black;
+      }
+    }
+  }
+  .scroll-icon {
+    display: none;
+  }
+  .about {
+    height: auto;
+    grid-template-columns: 1fr;
+    padding-bottom: 6em;
+    &-right {
+      margin-top: 0em;
+      font-size: 1.5rem;
+      .comments {
+        grid-auto-rows: 40%;
+      }
+      h1 {
+        text-align: center;
+      }
+    }
+    &-left {
+      width: 80%;
+      text-align: center;
+      margin: 0;
+      h1 {
+      }
+      p {
+        font-size: 1.5rem;
+        margin: 2em;
+      }
+      .comment {
+        padding-top: 2em;
+      }
+      .avatar {
+        padding-top: 1em;
+      }
+    }
+  }
+  .how-we-work {
+    grid-template-columns: 1fr;
+    height: auto;
+    &-right {
+      margin-bottom: 2em;
+      margin-top: 0;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+  .services {
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    .top {
+      text-align: center;
+    }
+    .cards {
+      display: block;
+      text-align: left;
+      transform: none;
+      width: 80%;
+      margin: 0 auto;
+      .card {
+        margin-bottom: 2em;
+        margin: 3em auto;
+
+        h2,
+        p {
+          transform: none;
+        }
+      }
+    }
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 2em 0;
+    margin-top: 0;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1448px) {
+  :root {
+    font-size: 12px;
+  }
+}
