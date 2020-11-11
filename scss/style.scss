@@ -115,7 +115,7 @@ nav {
   animation-name: scroll;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  transition: all 1.5s ease;
+  transition: all 1s ease;
 }
 
 .about {
@@ -187,6 +187,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  padding-bottom: 4em;
 
   .top {
     font-size: 2rem;
@@ -213,7 +214,7 @@ nav {
       width: 75%;
       transition: all 0.5s;
       &:hover {
-        transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2) !important;
         cursor: default;
       }
       h2,

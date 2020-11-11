@@ -152,8 +152,8 @@ nav img {
           animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-transition: all 1.5s ease;
-  transition: all 1.5s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .about {
@@ -258,6 +258,7 @@ nav img {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   justify-items: center;
+  padding-bottom: 4em;
 }
 
 .services .top {
@@ -300,8 +301,8 @@ nav img {
 }
 
 .services .cards .card:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2) !important;
+          transform: scale(1.2, 1.2) !important;
   cursor: default;
 }
 
