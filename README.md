@@ -1,4 +1,4 @@
-### Description
+### Description:
 
 My first attempt at creating a service selling site.  
 My first time using gsap library.  
@@ -21,6 +21,7 @@ Integrated the js to the html file.
 Improved scss skills.  
 Improved css grid skills.  
 Improved html slills.  
+Improved adobe xd skills.  
 How important the idea of mobile first thinking.  
 Improved docs reading.  
 Improved library integration.
